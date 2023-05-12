@@ -57,7 +57,7 @@
             grid-template-columns: 40% 60%;
             grid-area: DJ;
             .boite-left2{
-                background-image: url(./assets/img/event-02.jpg) center/cover;
+                background-image: url(assets/img/event-02.jpg) center/cover;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -91,7 +91,7 @@
             grid-area: Night;
             
             .boite-left{
-                background-image: url(./assets/img/event-01.jpg) center/cover;
+                background-image: url(assets/img/event-01.jpg) center/cover;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -121,7 +121,7 @@
         .boite3{
             width: 80%;
             grid-area: Thousands;
-            background-image: url(./assets/img/event-03.jpg) center/cover;
+            background-image: url(assets/img/event-03.jpg) center/cover;
         }
         .boite2-content{
             width: 90%;
