@@ -1,0 +1,168 @@
+.section4{
+    @media screen and (max-width: 950px){
+        display: none;
+    }
+    background: $backgroundcolor;
+    height: 600px;
+    .section4-head-container{
+        text-align: center;
+        .title-marron{
+            font-size: 2.5rem;
+            margin-bottom: -10px;
+        }
+        .titre-blanc{
+            text-transform: uppercase;
+            font-family: $Font2;
+            color: $white1;
+            font-size: 2.5rem;
+        }
+        img{
+            margin-top: 20px;
+        } 
+    }
+    .section4-mid-container{
+        height: 60%;
+        width: 90%;
+        margin: 20px auto;
+        display: grid;
+        grid-template-columns: 1fr 1Fr;
+        grid-template-rows: 1Fr 1FR;
+        grid-template-areas: 
+            "Night Thousands"
+            "DJ Thousands"
+        ;
+        gap: 5%;
+        #numbers{
+            font-size: 1.5rem;
+        }
+        #month{
+            font-size:1.2rem;
+            margin-bottom:0;
+            text-transform: capitalize;
+        }
+        #date3{
+            width: 50%;
+            height: 50%;
+            margin: 0 auto;
+            padding: 15px;
+            border: 1px solid transparent;
+            text-align: center;
+            color: $white1;
+            background: $backgroundcolor;
+            text-transform: capitalize;
+            font-size: 1rem;
+        }
+        .boite2{
+            display: grid;
+            grid-template-columns: 40% 60%;
+            grid-area: DJ;
+            .boite-left2{
+                background-image: url(./assets/img/event-02.jpg) center/cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+            .boite-right2{
+                background-color: $white1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                padding: 25px 20px;
+                h4{
+                    font-size: 1.2rem;
+                    padding-left: 10px;
+                    letter-spacing: 1px;
+                }
+                span{
+                    color: $grey1;
+                    font-size: 1rem;
+                }
+                p{
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-size: 0.8rem;
+                }
+            }
+
+        }
+        .boite1{
+            display: grid;
+            grid-template-columns: 40% 60%;
+            grid-area: Night;
+            
+            .boite-left{
+                background-image: url(./assets/img/event-01.jpg) center/cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .boite-right{
+                background-color: $white1;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                padding: 25px 20px;
+                h4{
+                    font-size: 1.2rem;
+                    padding-left: 10px;
+                    letter-spacing: 1px;
+                }
+                span{
+                    color: $grey1;
+                    font-size: 1rem;
+                }
+                p{
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+        .boite3{
+            width: 80%;
+            grid-area: Thousands;
+            background-image: url(./assets/img/event-03.jpg) center/cover;
+        }
+        .boite2-content{
+            width: 90%;
+            height: 90%;
+            background: $white1;
+            margin: 20px auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            h4{
+                font-size: 1.4rem;
+                text-align: center;
+                width: 70%;
+                margin: 0 auto;
+                letter-spacing: 1px;
+            }
+            span{
+                color: $grey1;
+                font-size: 1rem;
+                margin-bottom: 10px;
+            }
+
+            #ticket{
+                text-transform: uppercase;
+                margin-bottom: 30px;
+                font-size: 0.8rem;
+            }
+            #date3{
+                width: 25%;
+                height: 25%;
+                margin: 0 auto;
+                padding: 15px;
+                border: 1px solid transparent;
+                text-align: center;
+                color: $white1;
+                background: $backgroundcolor;
+                text-transform: capitalize;
+                font-size: 1rem;
+            }
+        }
+    }
+
+}

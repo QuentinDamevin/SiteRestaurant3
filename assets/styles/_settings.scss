@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Allura;
+    src: url(../font/Allura-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto-Light.ttf);
+}
+
+$Font1: Allura,  sans-serif;
+$Font2: Poppins, sans-serif;
+$Font3: Roboto,  sans-serif;
+
+$Marron:rgb(149, 94, 60);
+$white1:rgb(245, 245, 245);
+$grey1:rgb(130, 127, 127);
+$black1:rgb(16, 16, 16);
+$backgroundcolor:rgb(33,32,32);
+
+@mixin title-marron{
+    color: $Marron;
+    font-family: $Font1;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $Font3;
+}
+body{
+    font-family: $Font3;
+    margin: 0 auto;
+}
+a:visited{
+    color: $white1;
+}
+.title-marron{
+    @include title-marron
+}
+input:focus{
+    outline: none;
+}
+button:hover{
+    transform: scale(1.1);
+    
+}
+#ticket{
+    cursor: pointer;
+}

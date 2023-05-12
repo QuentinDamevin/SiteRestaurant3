@@ -1,0 +1,73 @@
+footer{
+    @media screen and (max-width: 850px){
+        background: $backgroundcolor;
+        display: block;
+    }
+    background-image: url(./assets/img/bg-footer.jpg) center/cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 250px;
+    .left-part{
+        @media screen and (max-width: 850px){
+            display: none;}
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left:35%;
+        margin-right: 10%;
+        text-align: left;
+        h3{
+            text-align: left;
+        }
+        p{
+            color: $grey1;
+            line-height: 25px;
+            font-size: 0.8rem;
+            padding-bottom: 20px;
+        }
+    }
+   .right-part{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 10%;
+        color:$white1;
+        text-transform: uppercase;
+        input{
+            @media screen and (max-width: 850px){
+                width: 40%;}
+                @media screen and (max-width: 850px){
+                    width: 50%;}
+            border: 1px solid $Marron;
+            background: transparent;
+            width: 50%;
+            padding: 8px 10px;
+            margin-bottom: 40px;
+        }
+        h3{
+            font-size: 0.9rem;
+            margin-top: 35px;
+            font-family: $Font2;
+        }
+        .nav-footer{
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+            h3{
+                margin-top: 0;
+                text-align: center;
+            }
+            ul{
+                display: flex;
+                li{
+                    padding: 0px 20px;
+                    color: $grey1;
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+}

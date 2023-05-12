@@ -1,0 +1,75 @@
+header{
+    background-image: url(./assets/img/bg-slider-06.jpg) fixed center/cover;
+    filter: brightness(90%);
+    min-height: 100vh;
+    color: $white1;
+    nav{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 30px;
+        margin: 0 100px 0 100px;
+        @media screen and (max-width: 1060px){
+            justify-content: space-between;
+            .list-titre{
+                display: none;
+            }  
+        }
+    }
+    h1{
+        font-family: $Font1;
+        font-size: 2.5rem;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+    }
+    }
+    .list-titre li{
+        margin: 0 40px 0 40px;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        cursor: pointer;
+    }
+    .list-logo li{
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    .header-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 70vh;
+        .title-blanc{
+            font-size: 4rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-family: $Font2;
+            padding-bottom: 30px;
+            @media screen and (max-width: 650px){
+                font-size: 3rem;
+                letter-spacing: 10px;
+                }
+        }
+        .title-marron{
+            font-size: 2.7rem;
+            margin-bottom: -28px;
+            @media screen and (max-width: 650px){
+                margin-bottom: 10px;
+                }
+        }
+        img{
+            padding-bottom: 40px;
+            height: 70px;
+        }
+        p{
+            @media screen and (max-width: 650px){
+                width: 60%;
+                text-align: center;
+                }
+            letter-spacing: 7px;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+        
+    }
