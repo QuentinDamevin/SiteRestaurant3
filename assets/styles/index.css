@@ -465,6 +465,7 @@ header ul {
   background: transparent;
   border-bottom: 1px solid rgb(130, 127, 127);
   padding-bottom: 8px;
+  text-align: left;
 }
 @media screen and (max-width: 950px) {
   .section-3 .section-3-head .section3-right form input {
