@@ -388,7 +388,7 @@ header ul {
   justify-content: space-around;
   align-items: center;
 }
-.section-3 .section-3-head .section3-left .section3-left-container h3 {
+.section-3 .section-3-head .section3-left .section3-left-container h3, .section-3 .section-3-head .section3-left .section3-left-container a {
   text-decoration: none;
   text-transform: uppercase;
   color: rgb(149, 94, 60);
@@ -627,7 +627,6 @@ header ul {
   font-size: 0.8rem;
 }
 .section4 .section4-mid-container .boite3 {
-  width: 80%;
   grid-area: Thousands;
   background: url(../img/event-03.jpg) center/cover;
 }
