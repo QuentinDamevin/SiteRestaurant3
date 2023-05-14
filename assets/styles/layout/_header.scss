@@ -1,4 +1,7 @@
 header{
+    @media screen and (max-width: 850px){
+        background: url(../img/bg-slider-06.jpg)  center/cover;
+    }
     background: url(../img/bg-slider-06.jpg) fixed center/cover;
     filter: brightness(90%);
     min-height: 100vh;
