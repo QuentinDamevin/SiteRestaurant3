@@ -52,6 +52,11 @@ header {
   min-height: 100vh;
   color: rgb(245, 245, 245);
 }
+@media screen and (max-width: 850px) {
+  header {
+    background: url(../img/bg-slider-06.jpg) center/cover;
+  }
+}
 header nav {
   display: flex;
   justify-content: space-around;
@@ -384,6 +389,7 @@ header ul {
   align-items: center;
 }
 .section-3 .section-3-head .section3-left .section3-left-container h3 {
+  text-decoration: none;
   text-transform: uppercase;
   color: rgb(149, 94, 60);
   font-family: Poppins, sans-serif;
