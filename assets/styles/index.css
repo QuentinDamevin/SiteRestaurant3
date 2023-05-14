@@ -388,9 +388,13 @@ header ul {
   justify-content: space-around;
   align-items: center;
 }
-.section-3 .section-3-head .section3-left .section3-left-container h3, .section-3 .section-3-head .section3-left .section3-left-container a {
-  text-decoration: none;
+.section-3 .section-3-head .section3-left .section3-left-container h3 {
   text-transform: uppercase;
+  color: rgb(149, 94, 60);
+  font-family: Poppins, sans-serif;
+}
+.section-3 .section-3-head .section3-left .section3-left-container a {
+  text-decoration: none;
   color: rgb(149, 94, 60);
   font-family: Poppins, sans-serif;
 }
@@ -534,9 +538,10 @@ header ul {
 }
 .section4 .section4-mid-container {
   height: 60%;
-  width: 90%;
+  width: 70%;
   margin: 20px auto;
   display: grid;
+  justify-items: center;
   grid-template-columns: 1fr 1Fr;
   grid-template-rows: 1Fr 1FR;
   grid-template-areas: "Night Thousands" "DJ Thousands";

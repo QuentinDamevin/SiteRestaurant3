@@ -22,9 +22,10 @@
     }
     .section4-mid-container{
         height: 60%;
-        width: 90%;
+        width: 70%;
         margin: 20px auto;
         display: grid;
+        justify-items: center;
         grid-template-columns: 1fr 1Fr;
         grid-template-rows: 1Fr 1FR;
         grid-template-areas: 
